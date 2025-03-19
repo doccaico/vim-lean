@@ -18,11 +18,15 @@ syn keyword leanKeyword variable variables theory #print theorem notation
 syn keyword leanKeyword example open axiom inductive instance class
 syn keyword leanKeyword with structure record universe universes alias help
 syn keyword leanKeyword reserve match infix infixl infixr notation postfix prefix
-syn keyword leanKeyword meta run_cmd do #exit
-syn keyword leanKeyword #eval #check end this suppose using namespace section
+syn keyword leanKeyword meta run_cmd do
+syn keyword leanKeyword end this suppose using namespace section
 syn keyword leanKeyword fields attribute local set_option extends include omit
 syn keyword leanKeyword calc have show suffices
 syn keyword leanKeyword by in at let if then else assume assert take obtain from
+" https://lean-ja.github.io/lean-by-example/Diagnostic/index.html
+syn keyword leanKeyword #check_failure #check #eval #find #guard_msgs #guard #help #html #instances #lint
+syn keyword leanKeyword #loogle #print #reduce #synth #test #time #version #whnf
+syn keyword leanKeyword #exit
 
 syn match leanOp        ":"
 syn match leanOp        "="
